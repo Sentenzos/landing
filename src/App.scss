@@ -6,6 +6,7 @@
   font-family: "Gotham Black";
   src: url("assets/fonts/gothamBlack.otf") format("otf");
 }
+
 html {
   height: 100%;
 }
@@ -13,7 +14,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background: #f2f2f2;
+  background: rgb(242, 242, 242);
 }
 
 #root {
@@ -22,5 +23,3 @@ body {
   background-color: yellow;
   height: 100%;
 }
-
-/*# sourceMappingURL=App.css.map */

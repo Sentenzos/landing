@@ -1,0 +1,21 @@
+.boost {
+  background-color: #709dca;
+  height: 590px;
+  display: flex;
+  justify-content: center;
+}
+
+.local-business {
+  display: block;
+  margin: 100px 0 0 0;
+  font-family: "Gotham Black", sans-serif;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.local-business-title {
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=Boost.css.map */
