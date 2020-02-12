@@ -6,6 +6,16 @@
   font-family: "Gotham Black";
   src: url("assets/fonts/gothamBlack.otf") format("otf");
 }
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("assets/fonts/Open Sans Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("assets/fonts/Open Sans.ttf") format("ttf");
+}
+
 
 html {
   height: 100%;
@@ -20,6 +30,4 @@ body {
 #root {
   max-width: 1700px;
   margin: auto;
-  background-color: yellow;
-  height: 100%;
 }
