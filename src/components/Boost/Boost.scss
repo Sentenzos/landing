@@ -22,7 +22,7 @@ $orange-color: #ffbb42;
   margin: 2px 0 0 0;
   font-family: "Open Sans Light", sans-serif;
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: normal;
   color: #ffffff;
 }
 
@@ -110,11 +110,4 @@ $orange-color: #ffbb42;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-
-.switch-buttons {
-  width: 63px;
-  background: black;
-  height: 10px;
-  z-index: 100;
 }

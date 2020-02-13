@@ -1,0 +1,72 @@
+.choose-price {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: start;
+  justify-items: center;
+  background-color: #e7edf3;
+  height: 900px;
+}
+
+.choose-price__title {
+  margin: 130px 0 0 0;
+  color: #394b50;
+  font-family: "Gotham Black", sans-serif;
+  font-size: 30px;
+}
+
+.choose-price__title-2 {
+  margin: 2px 0 0 0;
+  font-weight: lighter;
+  color: #75888d;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.price-plans {
+  margin: 50px 0 0 0;
+  display: grid;
+  grid-auto-flow: column;
+  align-content: start;
+  align-items: center;
+}
+
+.basic-plan, .gold-plan {
+  width: 388px;
+  height: 441px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  border-top: 1px solid #ccd5df;
+  border-bottom: 1px solid #ccd5df;
+  display: grid;
+  grid-auto-flow: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.plan__info {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: start;
+  justify-items: center;
+}
+
+.basic-plan {
+  border-left: 1px solid #ccd5df;
+}
+
+.gold-plan {
+  border-right: 1px solid #ccd5df;
+}
+
+.premium-plan {
+  width: 395px;
+  height: 501px;
+  background-color: #709dca;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  display: grid;
+}
+
+/*# sourceMappingURL=Choose.css.map */

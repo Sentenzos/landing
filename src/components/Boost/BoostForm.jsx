@@ -1,12 +1,7 @@
 import React from "react";
-import {reduxForm, Field} from "redux-form/lib/index";
+import {Field, reduxForm} from "redux-form/lib/index";
 import {Input} from "../../common/FormControl/FormControl";
-import {required} from "../../utils/validators";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas } from '@fortawesome/free-solid-svg-icons';
-library.add(fab, fas);
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 
 const BoostForm = () => {
