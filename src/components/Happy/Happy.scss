@@ -1,0 +1,46 @@
+.happy-clients {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: start;
+  justify-content: center;
+  justify-items: center;
+  height: 910px;
+  background-color: #ffc155;
+}
+
+.happy-clients__title-1 {
+  margin: 140px 0 0 0;
+  font-family: "Gotham Black", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 80%;
+}
+
+.happy-clients__title-2 {
+  margin: 10px 0 0 0;
+  font-family: "Open Sans Regular", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 80%;
+}
+
+.quotes {
+  display: grid;
+  grid-template-columns: 567px 567px;
+  grid-template-rows: 241px 241px;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-top: 61px;
+  width: 1174px;
+  height: 502px;
+}
+
+.quota {
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+}
+
+.quotes {
+  font-family: "Brandon Grotesque Bold", sans-serif;
+}

@@ -67,5 +67,99 @@
   box-sizing: border-box;
   border-radius: 0.2rem;
   display: grid;
+  grid-auto-flow: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.plan__name {
+  font-family: "Lato Light", sans-serif;
+  font-size: 25px;
+  color: #818b95;
+}
+
+.plan__price {
+  margin-top: 25px;
+  display: grid;
+  grid-auto-flow: column;
+  position: relative;
+}
+
+.plan__price-symbol, .plan__price-amount  {
+  font-family: "Lato", sans-serif;
+  color: #ffbb42;
+  font-weight: bolder;
+  line-height: 90%;
+}
+
+.plan__price-symbol {
+  font-size: 30px;
+}
+
+.plan__price-amount {
+  font-size: 60px;
+}
+
+.plan__per-month {
+  font-family: "Lato Light", sans-serif;
+  font-size: 20px;
+  font-variant: small-caps;
+  color: #818b95;
+  line-height: 70%;
+}
+
+.plan__accounts, .plan__support, .plan__cloud {
+  height: 41px;
+  border-bottom: 1px solid #e2e9f0;
+  width: 180%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 13.5px;
+  color: #b5bbc1;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  padding-top: 4px;
+}
+
+.plan__accounts {
+  border-top: 1px solid #e2e9f0;
+  margin-top: 35px;
+}
+
+.plan__cloud {
+  border-bottom: none;
+}
+
+.plan__button {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: #ffbb42;
+  border-radius: 0.15rem;
+  height: 42px;
+  width: 132px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.premium-plan {
+  .plan__name, .plan__per-month, .plan__price {
+    color: #ffffff;
+  }
+  .plan__price {
+    .plan__price-symbol, .plan__price-amount {
+      color: #ffffff;
+    }
+  }
+  .plan__accounts, .plan__support, .plan__cloud {
+    border-color: #8eb8e2;
+    color: #b8d9f8;
+  }
 }
 

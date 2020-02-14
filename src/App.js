@@ -12,6 +12,8 @@ import {fas} from '@fortawesome/free-solid-svg-icons';
 import {far} from '@fortawesome/free-regular-svg-icons';
 import About from "./components/About/About";
 import Choose from "./components/Choose/Choose";
+import How from "./components/How/How";
+import Happy from "./components/Happy/Happy";
 
 
 library.add(fab, fas, far);
@@ -26,6 +28,8 @@ const App = () => {
         <Services/>
         <About/>
         <Choose/>
+        <How/>
+        <Happy/>
       </Provider>
     </BrowserRouter>
   )

@@ -1,0 +1,130 @@
+.how-it-works {
+  height: 860px;
+  background-color: #ffffff;
+  display: grid;
+  grid-auto-flow: row;
+  align-content: start;
+  justify-content: center;
+  justify-items: center;
+}
+
+.how-it-works__title {
+  margin: 155px 0 0 0;
+  line-height: 80%;
+  font-family: "Gotham Black", sans-serif;
+  font-size: 30px;
+  color: #394b50;
+}
+
+.how-it-works__title-2 {
+  margin: 8px 0 0 0;
+  line-height: 80%;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #394b50;
+}
+
+.steps {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  margin-top: 105px;
+  width: 1125px;
+}
+
+.step {
+  display: grid;
+  justify-items: center;
+  width: 220px;
+}
+
+.step__name {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #394b50;
+  line-height: 80%;
+}
+
+.step__description {
+  margin-top: 25px;
+  text-align: center;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.step__image-wrapper {
+  height: 165px;
+  position: relative;
+}
+
+.step__image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.step__image.image-1 {
+  height: 63px;
+  width: 73px;
+  background-image: url("../../assets/img/step-1.png");
+}
+
+.step__image.image-2 {
+  height: 68px;
+  width: 53px;
+  background-image: url("../../assets/img/step-2.png");
+}
+
+.step__image.image-3 {
+  height: 63px;
+  width: 84px;
+  background-image: url("../../assets/img/step-3.png");
+}
+
+.step__image.image-4 {
+  height: 69px;
+  width: 71px;
+  background-image: url("../../assets/img/step-4.png");
+}
+
+.step__arrow {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 34px;
+  width: 131px;
+}
+
+.step__arrow.arrow-1, .step__arrow.arrow-3 {
+  background-image: url("../../assets/img/Arrow_1.png");
+  top: -34px;
+  left: 125px;
+}
+
+.step__arrow.arrow-2 {
+  background-image: url("../../assets/img/Arrow_2.png");
+  top: 68px;
+  left: 111px;
+}
+
+.get-start-button {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-top: 93px;
+  height: 48px;
+  width: 165px;
+  background-color: #ffbb42;
+  border-radius: 0.15rem;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=How.css.map */
