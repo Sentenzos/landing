@@ -14,6 +14,7 @@ import About from "./components/About/About";
 import Choose from "./components/Choose/Choose";
 import How from "./components/How/How";
 import Happy from "./components/Happy/Happy";
+import Newsletter from "./components/Newsletter/Newsletter";
 
 
 library.add(fab, fas, far);
@@ -30,6 +31,7 @@ const App = () => {
         <Choose/>
         <How/>
         <Happy/>
+        <Newsletter/>
       </Provider>
     </BrowserRouter>
   )

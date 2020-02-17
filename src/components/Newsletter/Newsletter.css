@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/lato regular.ttf");
+}
+@font-face {
+  font-family: "Gotham Black";
+  src: url("../assets/fonts/gothamBlack.otf");
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../assets/fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Ubuntu Mono Bold";
+  src: url("../assets/fonts/UbuntuMono-Bold.ttf");
+}
+.subscribe__button-wrapper {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #ffbb42;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  border-radius: 0.15rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.newsletter {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: start;
+  justify-items: center;
+  height: 1165px;
+  background-color: #ffffff;
+}
+
+.newsletter__title-1 {
+  margin: 100px 0 0 0;
+  line-height: 90%;
+  font-family: "Gotham Black", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  color: #394b50;
+}
+
+.newsletter__title-2 {
+  margin: 7px 0 0 0;
+  line-height: 90%;
+  font-family: "Open Sans Regular", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #394b50;
+}
+
+.newsletter__subscribe {
+  margin-top: 40px;
+  width: 937px;
+}
+
+.subscribe-form {
+  display: grid;
+  grid-auto-flow: column;
+  align-content: start;
+  justify-content: space-between;
+}
+
+.subscribe__name, .subscribe__email {
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #cbcbcb;
+  border-radius: 0.15rem;
+  font-family: "Open Sans Regular", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  padding-left: 45px;
+  color: #a9a9a9;
+}
+
+.subscribe__name {
+  height: 47px;
+  width: 308px;
+}
+
+.subscribe__email {
+  height: 47px;
+  width: 388px;
+}
+
+.subscribe__name-wrapper, .subscribe__email-wrapper {
+  position: relative;
+}
+
+.subscribe__button-wrapper {
+  width: 218px;
+  height: 47px;
+}
+
+.subscribe__button {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.dotted-map {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: start;
+  justify-items: center;
+  margin-top: 40px;
+  height: 551px;
+  width: 1104px;
+  background-image: url("../../assets/img/map.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.bubble {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: center;
+  justify-items: center;
+  margin-top: 40px;
+  width: 287px;
+  height: 298px;
+  background-image: url("../../assets/img/bubble.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.bubble__title {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.bubble__address {
+  margin-top: 10px;
+  text-align: center;
+  color: #aeb7ba;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.bubble__email {
+  color: #ffbb42;
+  text-decoration: none;
+}
+
+.site-logo-2 {
+  height: 50px;
+  width: 50px;
+  background-image: url("../../assets/img/siteLogo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 10;
+}
+
+.dividing-line {
+  margin: 55px 0 0 0;
+  width: 70%;
+  border-top: none;
+  border-bottom: 1px solid #e3e7ec;
+}
+
+.bottom-nav-wrapper {
+  margin-top: 69px;
+}
+
+.bottom-nav {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  width: 730px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.bottom-nav__item {
+  list-style-type: none;
+}
+
+.bottom-nav__item a {
+  text-decoration: none;
+  color: #394b50;
+}
+
+.bottom-nav__item a:hover {
+  color: #2a3336;
+}
+
+.bottom-phone {
+  display: block;
+  margin-top: 26px;
+  color: #394b50;
+  font-size: 22.5px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.bottom-phone__icon {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=Newsletter.css.map */

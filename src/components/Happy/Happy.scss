@@ -1,3 +1,5 @@
+@import "../../assets/fonts";
+
 .happy-clients {
   display: grid;
   grid-auto-flow: row;
@@ -19,7 +21,7 @@
 .happy-clients__title-2 {
   margin: 10px 0 0 0;
   font-family: "Open Sans Regular", sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 16px;
   color: #ffffff;
   line-height: 80%;
@@ -36,11 +38,56 @@
   height: 502px;
 }
 
-.quota {
+.quote-wrapper {
+  margin-top: 46px;
+  margin-left: 10px;
+}
+
+.quote-info {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: left;
   background-color: #ffffff;
   border-radius: 0.2rem;
 }
 
-.quotes {
-  font-family: "Brandon Grotesque Bold", sans-serif;
+.quote-hooks-1, .quote-hooks-2  {
+  font-family: "Ubuntu Mono Bold", sans-serif;
+  font-size: 30px;
+  color: #7b7b7b;
+}
+
+.quote-hooks-1 {
+  float: left;
+}
+
+.quote {
+  margin-left: 1.5rem;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 13px;
+  color: #7b7b7b;
+  line-height: 22px;
+  width: 345px;
+}
+
+.quote-avatar {
+  height: 123px;
+  width: 123px;
+  margin-left: 30px;
+  margin-top: 46px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.quote-owner {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  color: #99a9ae;
+}
+
+.quote-owner__name {
+  color: #f6772c;
 }
