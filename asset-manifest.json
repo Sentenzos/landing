@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/landing/static/css/main.b4ffd2fa.chunk.css",
+    "main.js": "/landing/static/js/main.5c207592.chunk.js",
+    "main.js.map": "/landing/static/js/main.5c207592.chunk.js.map",
+    "runtime-main.js": "/landing/static/js/runtime-main.8e076927.js",
+    "runtime-main.js.map": "/landing/static/js/runtime-main.8e076927.js.map",
+    "static/js/2.e8eebd99.chunk.js": "/landing/static/js/2.e8eebd99.chunk.js",
+    "static/js/2.e8eebd99.chunk.js.map": "/landing/static/js/2.e8eebd99.chunk.js.map",
+    "index.html": "/landing/index.html",
+    "precache-manifest.6adefbcc4d6d6cf79bf720f40583ad14.js": "/landing/precache-manifest.6adefbcc4d6d6cf79bf720f40583ad14.js",
+    "service-worker.js": "/landing/service-worker.js",
+    "static/css/main.b4ffd2fa.chunk.css.map": "/landing/static/css/main.b4ffd2fa.chunk.css.map",
+    "static/js/2.e8eebd99.chunk.js.LICENSE.txt": "/landing/static/js/2.e8eebd99.chunk.js.LICENSE.txt",
+    "static/media/Footer.scss": "/landing/static/media/lato regular.3b9b9903.ttf",
+    "static/media/About.scss": "/landing/static/media/aboutImage.7da0dda7.jpg",
+    "static/media/Newsletter.scss": "/landing/static/media/map.d8d0e2eb.png",
+    "static/media/Boost.scss": "/landing/static/media/laptop.67385454.png",
+    "static/media/photo-1.png": "/landing/static/media/photo-1.46e94e74.png",
+    "static/media/photo-2.png": "/landing/static/media/photo-2.fe48fa6f.png",
+    "static/media/photo-3.png": "/landing/static/media/photo-3.5e0ea1ef.png",
+    "static/media/photo-4.png": "/landing/static/media/photo-4.b45b23b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e076927.js",
+    "static/js/2.e8eebd99.chunk.js",
+    "static/css/main.b4ffd2fa.chunk.css",
+    "static/js/main.5c207592.chunk.js"
+  ]
+}
