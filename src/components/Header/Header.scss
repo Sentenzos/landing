@@ -1,55 +1,51 @@
-@import "../../assets/fonts";
+@import "../../assets/sundries";
 
 
 .header {
-  border-top: 1px solid #ffffff;
-  height: 95px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  height: 5.9375rem;
   background-color: #ffffff;
-  position: relative;
+  align-items: center;
 }
 
-.nav-wrapper {
-  width: 850px;
-  position: absolute;
-  top: 30px;
-  right: 185px;
-}
-
-.nav {
-  margin: 0;
+.top-nav {
+  width: 56rem;
+  margin: 0 0 0 6%;
   padding: 0;
+  align-self: center;
   display: grid;
   grid-auto-flow: column;
+  justify-content: left;
 }
 
-.nav__item {
+.top-nav__item {
   list-style-type: none;
-  text-align: center;
-  padding: 9px 0 9px 0;
-  align-self: center;
 }
 
-.nav__item:hover {
-  background-color: #ffbb42;
-  color: #868686;
-  cursor: pointer;
-}
-
-.nav__item:hover a {
-  color: #ffffff;
-}
-
-.nav__item a {
+.top-nav__item a {
+  display: block;
+  padding: 0.5625rem 1.3125rem;
   text-decoration: none;
   color: #868686;
   font-family: "Lato", sans-serif;
-  font-size: 13.5px;
+  font-size: 0.8437rem;
+}
+
+.top-nav__item:hover {
+  background-color: #ffbb42;
+  cursor: pointer;
+}
+
+.top-nav__item:hover a {
+  color: #ffffff;
 }
 
 .site-logo {
-  margin: 21px auto 0 18%;
-  height: 50px;
-  width: 50px;
+  margin-left: 1rem;
+  justify-self: center;
+  height: 3.125rem;
+  width: 3.125rem;
   background-image: url("../../assets/img/siteLogo.png");
   background-repeat: no-repeat;
   background-size: cover;

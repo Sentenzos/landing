@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/lato regular.ttf");
+}
+@font-face {
+  font-family: "Gotham Black";
+  src: url("../assets/fonts/gothamBlack.otf");
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../assets/fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Ubuntu Mono Bold";
+  src: url("../assets/fonts/UbuntuMono-Bold.ttf");
+}
+.footer {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 2.875rem;
+  background-color: #709dca;
+  font-size: 0.8125rem;
+  color: #ffffff;
+  font-family: "Open Sans Regular", sans-serif;
+}
+
+/*# sourceMappingURL=Footer.css.map */

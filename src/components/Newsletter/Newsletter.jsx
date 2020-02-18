@@ -4,11 +4,13 @@ import {Field, reduxForm} from "redux-form";
 import {Input} from "../../common/FormControl/FormControl";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import NewsletterForm from "./NewsletterForm";
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 
 const Newsletter = () => {
 
   return (
+    <ScrollableAnchor id="newsletter">
     <div className="newsletter">
       <h1 className="newsletter__title-1">NEWSLETTER</h1>
       <h4 className="newsletter__title-2">Lorem Ipsum is simply dummy Business industry</h4>
@@ -27,25 +29,29 @@ const Newsletter = () => {
         <div className="site-logo-2"/>
       </div>
       <hr className="dividing-line"/>
-      <div className="bottom-nav-wrapper">
         <ul className="bottom-nav">
-          <li className="bottom-nav__item"><a href="#">HOME</a></li>
-          <li className="bottom-nav__item"><a href="#">SERVICE</a></li>
-          <li className="bottom-nav__item"><a href="#">ABOUT US</a></li>
-          <li className="bottom-nav__item"><a href="#">PRICING TABLE</a></li>
-          <li className="bottom-nav__item"><a href="#">HOW IT WORK</a></li>
-          <li className="bottom-nav__item"><a href="#">HAPPY CLIENTS</a></li>
-          <li className="bottom-nav__item"><a href="#">CONTACT US</a></li>
+          <li className="bottom-nav__item"><a href="#header">HOME</a></li>
+          <li className="bottom-nav__item"><a href="#services">SERVICE</a></li>
+          <li className="bottom-nav__item"><a href="#about">ABOUT US</a></li>
+          <li className="bottom-nav__item"><a href="#price">PRICING TABLE</a></li>
+          <li className="bottom-nav__item"><a href="#how-it-works">HOW IT WORK</a></li>
+          <li className="bottom-nav__item"><a href="#happy-clients">HAPPY CLIENTS</a></li>
+          <li className="bottom-nav__item"><a href="#newsletter">CONTACT US</a></li>
         </ul>
-      </div>
       <a href="tel:+9879976999" className="bottom-phone">
         <span className="bottom-phone__icon"><FontAwesomeIcon icon="phone-alt"/>     </span>
         +987 9976 999
       </a>
+      <div className="social-networks">
+        <a className="social-network" href="https://www.twitter.com/"><FontAwesomeIcon icon={["fab", "twitter"]} color="#ffc155"/></a>
+        <a className="social-network" href="https://www.facebook.com/"><FontAwesomeIcon icon={["fab", "facebook-f"]}/></a>
+        <a className="social-network" href="https://plus.google.com"><FontAwesomeIcon icon={["fab", "google-plus-g"]}/></a>
+        <a className="social-network" href="https://www.linkedin.com"><FontAwesomeIcon icon={["fab", "linkedin-in"]}/></a>
+      </div>
     </div>
+    </ScrollableAnchor>
   )
 };
-
 
 
 export default Newsletter;

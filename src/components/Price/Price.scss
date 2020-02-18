@@ -1,4 +1,4 @@
-@import "../../assets/fonts";
+@import "../../assets/sundries";
 
 
 .choose-price {
@@ -8,14 +8,14 @@
   align-content: start;
   justify-items: center;
   background-color: #e7edf3;
-  height: 900px;
+  height: 56.25rem;
 }
 
 .choose-price__title {
-  margin: 130px 0 0 0;
+  margin: 8.125rem 0 0 0;
   color: #394b50;
   font-family: "Gotham Black", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .choose-price__title-2 {
@@ -23,11 +23,11 @@
   font-weight: lighter;
   color: #75888d;
   font-family: "Lato", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .price-plans {
-  margin: 50px 0 0 0;
+  margin: 3.125rem 0 0 0;
   display: grid;
   grid-auto-flow: column;
   align-content: start;
@@ -35,8 +35,8 @@
 }
 
 .basic-plan, .gold-plan {
-  width: 388px;
-  height: 441px;
+  width: 24.25rem;
+  height: 27.5425rem;
   background-color: #ffffff;
   box-sizing: border-box;
   border-radius: 0.2rem;
@@ -64,8 +64,8 @@
 }
 
 .premium-plan {
-  width: 395px;
-  height: 501px;
+  width: 24.6875rem;
+  height: 31.3125rem;
   background-color: #709dca;
   box-sizing: border-box;
   border-radius: 0.2rem;
@@ -77,15 +77,14 @@
 
 .plan__name {
   font-family: "Lato Light", sans-serif;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #818b95;
 }
 
 .plan__price {
-  margin-top: 25px;
+  margin-top: 1.5625rem;
   display: grid;
   grid-auto-flow: column;
-  position: relative;
 }
 
 .plan__price-symbol, .plan__price-amount  {
@@ -96,39 +95,39 @@
 }
 
 .plan__price-symbol {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .plan__price-amount {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 .plan__per-month {
   font-family: "Lato Light", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-variant: small-caps;
   color: #818b95;
   line-height: 70%;
 }
 
 .plan__accounts, .plan__support, .plan__cloud {
-  height: 41px;
+  height: 2.5625rem;
   border-bottom: 1px solid #e2e9f0;
   width: 180%;
   display: grid;
   justify-items: center;
   align-items: center;
-  font-size: 13.5px;
+  font-size: 0.8437rem;
   color: #b5bbc1;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   font-weight: normal;
-  padding-top: 4px;
+  padding-top: 0.25rem;
 }
 
 .plan__accounts {
   border-top: 1px solid #e2e9f0;
-  margin-top: 35px;
+  margin-top: 2.1875rem;
 }
 
 .plan__cloud {
@@ -136,19 +135,10 @@
 }
 
 .plan__button {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  background-color: #ffbb42;
-  border-radius: 0.15rem;
-  height: 42px;
-  width: 132px;
-  cursor: pointer;
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  color: #ffffff;
-  margin-top: 20px;
+  @extend %button-template;
+  height: 2.625rem;
+  width: 8.25rem;
+  margin-top: 1.25rem;
 }
 
 .premium-plan {

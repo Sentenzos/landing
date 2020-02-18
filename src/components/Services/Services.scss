@@ -1,7 +1,5 @@
-@import "../../assets/fonts";
+@import "../../assets/sundries";
 
-
-$orange-color: #ffbb42;
 
 .services {
   display: grid;
@@ -10,20 +8,20 @@ $orange-color: #ffbb42;
   align-content: start;
   justify-items: center;
   background-color: #ffffff;
-  height: 925px;
+  height: 57.8125rem;
 }
 
 .switch-buttons {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
-  margin-top: 85px;
-  width: 63px;
+  margin-top: 5.3125rem;
+  width: 3.9375rem;
 }
 
 .switch-button {
-  height: 11px;
-  width: 11px;
+  height: 0.6875rem;
+  width: 0.6875rem;
   border-radius: 50%;
   border: 2px solid #dfe0e1;
   cursor: pointer;
@@ -34,10 +32,10 @@ $orange-color: #ffbb42;
 }
 
 .services__title {
-  margin: 95px 0 0 0;
+  margin: 5.9375rem 0 0 0;
   font-family: "Gotham Black", sans-serif;
   color: #394b50;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .services__title-2 {
@@ -45,11 +43,11 @@ $orange-color: #ffbb42;
   font-weight: normal;
   font-family: "Open Sans Regular", sans-serif;
   color:#46575c;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .services__services-items {
-  width: 1170px;
+  width: 73.125rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
@@ -59,7 +57,7 @@ $orange-color: #ffbb42;
   display: grid;
   justify-content: start;
   grid-auto-flow: column;
-  margin-top: 75px;
+  margin-top: 4.6875rem;
 }
 
 .services-item.right {
@@ -67,29 +65,29 @@ $orange-color: #ffbb42;
 }
 
 .services-item__info-wrapper {
-  width: 430px;
+  width: 26.875rem;
 }
 
 .services-item__title {
   margin: 0;
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #394b50;
 }
 
 .services-item__text {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   font-family: "Open Sans Regular", sans-serif;
-  font-size: 13px;
-  line-height: 22px;
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
   color: #7b7b7b;
 }
 
 .services-item__img {
-  width: 84px;
-  font-size: 43px;
+  width: 5.25rem;
+  font-size: 2.6875rem;
   color: #709dca;
 }
 

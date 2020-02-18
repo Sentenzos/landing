@@ -11,10 +11,11 @@ import {fab} from '@fortawesome/free-brands-svg-icons'
 import {fas} from '@fortawesome/free-solid-svg-icons';
 import {far} from '@fortawesome/free-regular-svg-icons';
 import About from "./components/About/About";
-import Choose from "./components/Choose/Choose";
+import Price from "./components/Price/Price";
 import How from "./components/How/How";
 import Happy from "./components/Happy/Happy";
 import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
 
 
 library.add(fab, fas, far);
@@ -28,10 +29,11 @@ const App = () => {
         <Boost/>
         <Services/>
         <About/>
-        <Choose/>
+        <Price/>
         <How/>
         <Happy/>
         <Newsletter/>
+        <Footer/>
       </Provider>
     </BrowserRouter>
   )

@@ -1,14 +1,51 @@
 html {
-  height: 100%;
+  font-size: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
-  height: 100%;
   background: rgb(242, 242, 242);
 }
 
-#root {
-  max-width: 1700px;
-  margin: auto;
+@media all and (max-width: 1191px){
+  html {
+    font-size: 90% !important;
+  }
 }
+
+@media all and (max-width: 1191px){
+  html {
+    font-size: 90% !important;
+  }
+}
+
+@media all and (max-width: 1072px){
+  html {
+    font-size: 80% !important;
+  }
+}
+
+@media all and (max-width: 955px){
+  html {
+    font-size: 70% !important;
+  }
+}
+
+@media all and (max-width: 837px){
+  html {
+    font-size: 60% !important;
+  }
+}
+
+@media all and (max-width: 727px){
+  html {
+    font-size: 50% !important;
+  }
+}
+
+//@media all and (max-width: 615px){
+//  html {
+//    font-size: 50% !important;
+//  }
+//}

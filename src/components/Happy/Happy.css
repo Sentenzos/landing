@@ -24,41 +24,41 @@
   align-content: start;
   justify-content: center;
   justify-items: center;
-  height: 910px;
+  height: 56.875rem;
   background-color: #ffc155;
 }
 
 .happy-clients__title-1 {
-  margin: 140px 0 0 0;
+  margin: 8.75rem 0 0 0;
   font-family: "Gotham Black", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #ffffff;
   line-height: 80%;
 }
 
 .happy-clients__title-2 {
-  margin: 10px 0 0 0;
+  margin: 0.625rem 0 0 0;
   font-family: "Open Sans Regular", sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffffff;
   line-height: 80%;
 }
 
 .quotes {
   display: grid;
-  grid-template-columns: 567px 567px;
-  grid-template-rows: 241px 241px;
+  grid-template-columns: 35.4375rem 35.4375rem;
+  grid-template-rows: 15.0625rem 15.0625rem;
   justify-content: space-between;
   align-content: space-between;
-  margin-top: 61px;
-  width: 1174px;
-  height: 502px;
+  margin-top: 3.8125rem;
+  width: 73.375rem;
+  height: 31.375rem;
 }
 
 .quote-wrapper {
-  margin-top: 46px;
-  margin-left: 10px;
+  margin-top: 2.875rem;
+  margin-left: 0.625rem;
 }
 
 .quote-info {
@@ -71,7 +71,7 @@
 
 .quote-hooks-1, .quote-hooks-2 {
   font-family: "Ubuntu Mono Bold", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #7b7b7b;
 }
 
@@ -82,25 +82,25 @@
 .quote {
   margin-left: 1.5rem;
   font-family: "Open Sans Regular", sans-serif;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #7b7b7b;
-  line-height: 22px;
-  width: 345px;
+  line-height: 1.375rem;
+  width: 21.5625rem;
 }
 
 .quote-avatar {
-  height: 123px;
-  width: 123px;
-  margin-left: 30px;
-  margin-top: 46px;
+  height: 7.6875rem;
+  width: 7.6875rem;
+  margin-left: 1.875rem;
+  margin-top: 2.875rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .quote-owner {
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
   font-family: "Lato", sans-serif;
   font-weight: normal;
   color: #99a9ae;

@@ -18,10 +18,23 @@
   font-family: "Ubuntu Mono Bold";
   src: url("../assets/fonts/UbuntuMono-Bold.ttf");
 }
+.about__button {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #ffbb42;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: "Lato", sans-serif;
+  border-radius: 0.15rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 625px;
+  height: 39.0625rem;
   background: #ffc155;
 }
 
@@ -34,40 +47,33 @@
 }
 
 .about__info {
-  margin: 155px 50px 0 80px;
-  max-width: 505px;
-  min-width: 300px;
+  margin: 9.6875rem 3.125rem 0 5rem;
+  max-width: 31.5625rem;
+  min-width: 18.75rem;
 }
 
 .about__title {
   margin: 0;
   font-family: "Gotham Black", sans-serif;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .about__description {
-  margin: 15px 0 0 0;
+  margin: 0.9375rem 0 0 0;
   font-family: "Open Sans Regular", sans-serif;
   color: #ffffff;
-  font-size: 13px;
-  line-height: 24px;
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
 }
 
 .about__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  box-sizing: border-box;
-  color: #ffffff;
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  width: 144px;
-  height: 46px;
+  margin-top: 1.875rem;
+  width: 9rem;
+  height: 2.875rem;
   border: 1px solid #e7ad48;
-  border-radius: 0.15rem;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .about__button:hover {
