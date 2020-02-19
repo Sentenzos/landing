@@ -22,9 +22,9 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  height: 2.875rem;
+  height: 2.875em;
   background-color: #709dca;
-  font-size: 0.8125rem;
+  font-size: 0.8125em;
   color: #ffffff;
   font-family: "Open Sans Regular", sans-serif;
 }

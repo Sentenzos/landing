@@ -13,7 +13,7 @@
 .happy-clients__title-1 {
   margin: 8.75rem 0 0 0;
   font-family: "Gotham Black", sans-serif;
-  font-size: 1.875rem;
+  font-size: 1.875em;
   color: #ffffff;
   line-height: 80%;
 }
@@ -22,7 +22,7 @@
   margin: 0.625rem 0 0 0;
   font-family: "Open Sans Regular", sans-serif;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1em;
   color: #ffffff;
   line-height: 80%;
 }
@@ -31,11 +31,12 @@
   display: grid;
   grid-template-columns: 35.4375rem 35.4375rem;
   grid-template-rows: 15.0625rem 15.0625rem;
+  grid-row-gap: 1.3rem;
   justify-content: space-between;
   align-content: space-between;
   margin-top: 3.8125rem;
   width: 73.375rem;
-  height: 31.375rem;
+  //height: 31.375rem;
 }
 
 .quote-wrapper {
@@ -53,7 +54,7 @@
 
 .quote-hooks-1, .quote-hooks-2  {
   font-family: "Ubuntu Mono Bold", sans-serif;
-  font-size: 1.875rem;
+  font-size: 1.875em;
   color: #7b7b7b;
 }
 
@@ -64,9 +65,9 @@
 .quote {
   margin-left: 1.5rem;
   font-family: "Open Sans Regular", sans-serif;
-  font-size: 0.8125rem;
+  font-size: 0.8125em;
   color: #7b7b7b;
-  line-height: 1.375rem;
+  line-height: 1.69231em;
   width: 21.5625rem;
 }
 
@@ -82,7 +83,7 @@
 
 .quote-owner {
   margin-top: 1.25rem;
-  font-size: 0.875rem;
+  font-size: 1.077em;
   font-family: "Lato", sans-serif;
   font-weight: normal;
   color: #99a9ae;

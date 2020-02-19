@@ -16,12 +16,12 @@
   grid-auto-flow: column;
   justify-content: space-between;
   margin-top: 5.3125rem;
-  width: 3.9375rem;
+  width: 3.9375em;
 }
 
 .switch-button {
-  height: 0.6875rem;
-  width: 0.6875rem;
+  height: 0.6875em;
+  width: 0.6875em;
   border-radius: 50%;
   border: 2px solid #dfe0e1;
   cursor: pointer;
@@ -35,7 +35,7 @@
   margin: 5.9375rem 0 0 0;
   font-family: "Gotham Black", sans-serif;
   color: #394b50;
-  font-size: 1.875rem;
+  font-size: 1.875em;
 }
 
 .services__title-2 {
@@ -43,7 +43,7 @@
   font-weight: normal;
   font-family: "Open Sans Regular", sans-serif;
   color:#46575c;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .services__services-items {
@@ -71,7 +71,7 @@
 .services-item__title {
   margin: 0;
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
   color: #394b50;
@@ -80,14 +80,14 @@
 .services-item__text {
   margin-top: 0.625rem;
   font-family: "Open Sans Regular", sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1.375rem;
+  font-size: 0.8125em;
+  line-height: 1.6923em;
   color: #7b7b7b;
 }
 
 .services-item__img {
   width: 5.25rem;
-  font-size: 2.6875rem;
+  font-size: 2.6875em;
   color: #709dca;
 }
 

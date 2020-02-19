@@ -15,7 +15,7 @@
   line-height: 90%;
   font-family: "Gotham Black", sans-serif;
   font-weight: normal;
-  font-size: 1.875rem;
+  font-size: 1.875em;
   color: #394b50;
 }
 
@@ -24,7 +24,7 @@
   line-height: 90%;
   font-family: "Open Sans Regular", sans-serif;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1em;
   color: #394b50;
 }
 
@@ -47,8 +47,8 @@
   border-radius: 0.15rem;
   font-family: "Open Sans Regular", sans-serif;
   font-weight: normal;
-  font-size: 0.8125rem;
-  padding-left: 2.8125rem;
+  font-size: 0.8125em;
+  padding: 0 0 0 2.8125em;
   color: #a9a9a9;
 }
 
@@ -112,7 +112,7 @@
   color: #ffffff;
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  font-size: 0.9375rem;
+  font-size: 0.9375em;
 }
 
 .bubble__address {
@@ -120,8 +120,8 @@
   text-align: center;
   color: #aeb7ba;
   font-family: "Open Sans Regular", sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1.5rem;
+  font-size: 0.8125em;
+  line-height: 1.8462em;
 }
 
 .bubble__email {
@@ -150,10 +150,10 @@
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
-  width: 46.625rem;
+  width: 46.625em;
   padding: 0 0 0 0;
   margin: 4.3125rem 0 0 0;
-  font-size: 0.8125rem;
+  font-size: 0.8125em;
   font-family: "Lato", sans-serif;
   font-weight: normal;
 }
@@ -175,14 +175,14 @@
   display: block;
   margin-top: 1.625rem;
   color: #394b50;
-  font-size: 1.4062rem;
+  font-size: 1.4062em;
   font-family: "Lato", sans-serif;
   font-weight: normal;
   text-decoration: none;
 }
 
 .bottom-phone__icon {
-  font-size: 1.125rem;
+  font-size: 0.8em;
 }
 
 .social-networks {
@@ -190,9 +190,9 @@
   grid-auto-flow: column;
   align-content: start;
   justify-content: space-between;
-  width: 7.375rem;
+  width: 7.375em;
   margin-top: 1.25rem;
-  font-size: 1.125rem;
+  font-size: 1.125em;
 }
 
 .social-network {

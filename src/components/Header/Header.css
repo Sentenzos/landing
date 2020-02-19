@@ -27,7 +27,7 @@
 }
 
 .top-nav {
-  width: 56rem;
+  width: 56em;
   margin: 0 0 0 6%;
   padding: 0;
   align-self: center;
@@ -46,7 +46,7 @@
   text-decoration: none;
   color: #868686;
   font-family: "Lato", sans-serif;
-  font-size: 0.8437rem;
+  font-size: 0.8437em;
 }
 
 .top-nav__item:hover {

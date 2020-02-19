@@ -15,15 +15,9 @@ const Happy = () => {
         <h4 className="happy-clients__title-2">We are explain who are using our business solutions</h4>
         <div className="quotes">
           <Quote name="DARVIN MICKLE" position="PROJECT MANAGER" photo={photo1}/>
-          <div className="quote-info">
-            <Quote name="MADAM ELIZABETH" position="CREATIVE DIRECTOR" photo={photo2}/>
-          </div>
-          <div className="quote-info">
-            <Quote name="CLIPS ARTER" position="LIPSUM DIRECTOR" photo={photo3}/>
-          </div>
-          <div className="quote-info">
-            <Quote name="ZAM CHRISTOPHER" position="MANAGER" photo={photo4}/>
-          </div>
+          <Quote name="MADAM ELIZABETH" position="CREATIVE DIRECTOR" photo={photo2}/>
+          <Quote name="CLIPS ARTER" position="LIPSUM DIRECTOR" photo={photo3}/>
+          <Quote name="ZAM CHRISTOPHER" position="MANAGER" photo={photo4}/>
         </div>
       </div>
     </ScrollableAnchor>

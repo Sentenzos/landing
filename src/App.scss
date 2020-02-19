@@ -24,11 +24,23 @@ body {
   html {
     font-size: 80% !important;
   }
+  body {
+    font-size: 14px;
+  }
 }
 
 @media all and (max-width: 955px){
   html {
     font-size: 70% !important;
+  }
+  body {
+    font-size: 13px;
+  }
+  .services {
+    height: 60rem !important;
+  }
+  .plan__accounts, .plan__support, .plan__cloud {
+    width: 150% !important;
   }
 }
 
@@ -36,16 +48,201 @@ body {
   html {
     font-size: 60% !important;
   }
+  .switch-buttons {
+    margin-top: 9% !important;
+  }
+  .services {
+    height: 68rem !important;
+  }
+  .about {
+    height: 42rem !important;
+  }
+  .plan__accounts, .plan__support, .plan__cloud {
+    width: 140% !important;
+  }
+  .bubble {
+    height: 20rem !important;
+    width: 19.5rem !important;
+  }
+  .site-logo-2 {
+    height: 3.5rem !important;
+    width: 3.5rem !important;
+  }
+  .happy-clients {
+    height: 63rem !important;
+  }
+  .quotes {
+    grid-template-rows: 20rem 20rem !important;
+  }
 }
 
 @media all and (max-width: 727px){
   html {
     font-size: 50% !important;
   }
+  .site-logo {
+    height: 3.5rem !important;
+    width: 3.5rem !important;
+  }
+  .form__button-wrapper {
+    width: 17.5625rem !important;
+    height: 3.1rem !important;
+  }
+  .boost__form {
+    width: 73rem !important;
+  }
+  .form__full-name, .form__email, .form__phone-number {
+    height: 3.1rem !important;
+  }
+  .services {
+    height: 80rem !important;
+  }
+  .switch-buttons {
+    margin-top: 10% !important;
+  }
+  .services-item__img {
+    width: 6rem !important;
+  }
+  .services-item__info-wrapper {
+    width: 29rem !important;
+  }
+  .about {
+    height: 50rem !important;
+  }
+  .about__button {
+    width: 11rem !important;
+    height: 3.5rem !important;
+  }
+  .plan__accounts, .plan__support, .plan__cloud {
+    width: 115% !important;
+  }
+  .plan__button {
+    height: 3rem !important;
+    width: 11rem !important;
+  }
+  .premium-plan {
+    height: 33rem !important;
+  }
+  .basic-plan, .gold-plan {
+    height: 30rem !important;
+  }
+  .how-it-works {
+    height: 60rem !important;
+  }
+  .get-start-button {
+    height: 3.3rem !important;
+    width: 13rem !important;
+  }
+  .happy-clients {
+    height: 73rem !important;
+  }
+  .quotes {
+    grid-template-rows: 25rem 25rem !important;
+  }
+  .bubble {
+    height: 24rem !important;
+    width: 23rem !important;
+  }
+  .site-logo-2 {
+    height: 4rem !important;
+    width: 4rem !important;
+  }
+  .subscribe__name, .subscribe__email, .subscribe__button-wrapper {
+    height: 3.1rem !important;
+  }
 }
 
-//@media all and (max-width: 615px){
-//  html {
-//    font-size: 50% !important;
-//  }
-//}
+@media all and (max-width: 675px){
+  .top-nav {
+    margin-left: 1% !important;
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 619px){
+  header {
+    display: none !important;
+  }
+  .boost__form {
+    grid-template-rows: 1fr 1fr !important;
+    justify-content: center !important;
+    grid-gap: 1em 1em !important;
+    width: auto !important;
+  }
+  .form__full-name, .form__email, .form__phone-number {
+    height: 3.5em !important;
+    width: 21em !important;
+  }
+  .form__button-wrapper {
+    height: 3.285715em !important;
+    width: 19.5em !important;
+  }
+  .laptop {
+    width: 50rem !important;
+    height: 30rem !important;
+  }
+  .services {
+    height: 133rem !important;
+  }
+  .switch-buttons {
+    margin-top: 34% !important;
+  }
+  .services__services-items {
+    margin-top: 3rem !important;
+    grid-template-columns: 1fr !important;
+    justify-content: left !important;
+    justify-items: left !important;
+  }
+  .services-item {
+    margin-left: 10%;
+  }
+  .services-item__info-wrapper {
+    width: 43rem !important;
+  }
+  .services-item__img {
+    width: 8rem !important;
+  }
+  .about {
+    grid-template-columns: 0.3fr 1fr !important;
+  }
+  .about__info {
+    justify-self: center;
+    max-width: 40rem !important;
+  }
+  .choose-price {
+    height: 123rem !important;
+  }
+  .price-plans {
+    grid-auto-flow: row !important;
+    grid-row-gap: 1em !important;
+  }
+  .basic-plan, .premium-plan, .gold-plan {
+    width: 30rem !important;
+    border: none !important;
+  }
+  .how-it-works {
+    height: 83rem !important;
+  }
+  .steps {
+    width: auto !important;
+    grid-template-rows: 1fr 1fr !important;
+    justify-content: center !important;
+    grid-gap: 7% 25%;
+  }
+  .step__image-wrapper {
+    height: 8rem !important;
+  }
+  .step {
+    width: 12em !important;
+  }
+  .step__arrow {
+    display: none !important;
+  }
+  .get-start-button {
+    margin-top: 10rem !important;
+  }
+  .quotes {
+    width: auto !important;
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -24,7 +24,7 @@
   align-items: center;
   background-color: #ffbb42;
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 0.875em;
   font-family: "Lato", sans-serif;
   border-radius: 0.15rem;
   cursor: pointer;
@@ -45,14 +45,14 @@
   display: block;
   margin: 6.25rem 0 0 0;
   font-family: "Gotham Black", sans-serif;
-  font-size: 2.1875rem;
+  font-size: 2.1875em;
   color: #ffffff;
 }
 
 .local-business-title {
   margin: 2px 0 0 0;
   font-family: "Open Sans Light", sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: normal;
   color: #ffffff;
 }
@@ -93,7 +93,7 @@
   height: 2.875rem;
   width: 13.1875rem;
   font-family: "Open Sans Regular", sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.875em;
 }
 
 .form__full-name, .form__email, .form__phone-number {
@@ -104,17 +104,17 @@
   box-sizing: border-box;
   font-family: "Open Sans Regular", sans-serif;
   outline: none;
-  padding-left: 2.5rem;
-  font-size: 0.8125rem;
+  padding: 0 0 0 3em;
+  font-size: 0.8125em;
 }
 
 .awesome-icon-wrapper {
   position: absolute;
-  margin-left: 0.9375rem;
+  margin-left: 0.9375em;
   height: 100%;
   display: flex;
   align-items: center;
-  font-size: 0.9375rem;
+  font-size: 0.9375em;
 }
 
 .laptop-wrapper {

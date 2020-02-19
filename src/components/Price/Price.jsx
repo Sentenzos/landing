@@ -25,7 +25,7 @@ const Price = () => {
             />
           </div>
           <div className="gold-plan">
-            <PlanInfo name={"BASIC PLAN"}
+            <PlanInfo name={"GOLD PLAN"}
                       price={62}
                       accounts={"8 ACCOUNTS"}
                       support={"24 HOURS SUPPORT"}

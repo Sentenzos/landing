@@ -24,7 +24,7 @@
   align-items: center;
   background-color: #ffbb42;
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 0.875em;
   font-family: "Lato", sans-serif;
   border-radius: 0.15rem;
   cursor: pointer;
@@ -45,7 +45,7 @@
   margin: 8.125rem 0 0 0;
   color: #394b50;
   font-family: "Gotham Black", sans-serif;
-  font-size: 1.875rem;
+  font-size: 1.875em;
 }
 
 .choose-price__title-2 {
@@ -53,7 +53,7 @@
   font-weight: lighter;
   color: #75888d;
   font-family: "Lato", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.125em;
 }
 
 .price-plans {
@@ -107,7 +107,7 @@
 
 .plan__name {
   font-family: "Lato Light", sans-serif;
-  font-size: 1.5625rem;
+  font-size: 1.5625em;
   color: #818b95;
 }
 
@@ -125,16 +125,16 @@
 }
 
 .plan__price-symbol {
-  font-size: 1.875rem;
+  font-size: 1.875em;
 }
 
 .plan__price-amount {
-  font-size: 3.75rem;
+  font-size: 3.75em;
 }
 
 .plan__per-month {
   font-family: "Lato Light", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-variant: small-caps;
   color: #818b95;
   line-height: 70%;
@@ -147,7 +147,7 @@
   display: grid;
   justify-items: center;
   align-items: center;
-  font-size: 0.8437rem;
+  font-size: 0.8437em;
   color: #b5bbc1;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
