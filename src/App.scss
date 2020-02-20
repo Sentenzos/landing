@@ -1,6 +1,6 @@
 html {
   font-size: 100%;
-  overflow-x: hidden;
+  min-width: 600px;
 }
 
 body {
@@ -8,17 +8,36 @@ body {
   background: rgb(242, 242, 242);
 }
 
-@media all and (max-width: 1191px){
-  html {
-    font-size: 90% !important;
+
+
+
+
+@media all and (max-width: 1350px){
+  .header {
+    grid-template-columns: 0.3fr 1fr !important;
   }
 }
+
+
+
 
 @media all and (max-width: 1191px){
   html {
     font-size: 90% !important;
   }
 }
+
+
+
+
+@media all and (max-width: 1191px){
+  html {
+    font-size: 90% !important;
+  }
+}
+
+
+
 
 @media all and (max-width: 1072px){
   html {
@@ -27,7 +46,16 @@ body {
   body {
     font-size: 14px;
   }
+  .header {
+    grid-template-columns: 0.15fr 1fr !important;
+  }
+  .top-nav {
+    width: 55rem !important;
+  }
 }
+
+
+
 
 @media all and (max-width: 955px){
   html {
@@ -42,11 +70,23 @@ body {
   .plan__accounts, .plan__support, .plan__cloud {
     width: 150% !important;
   }
+  .top-nav {
+    width: 58rem !important;
+  }
 }
+
+
+
 
 @media all and (max-width: 837px){
   html {
     font-size: 60% !important;
+  }
+  .header {
+    grid-template-columns: 0.1fr 1fr !important;
+  }
+  .top-nav {
+    width: 64rem !important;
   }
   .switch-buttons {
     margin-top: 9% !important;
@@ -76,6 +116,9 @@ body {
   }
 }
 
+
+
+
 @media all and (max-width: 727px){
   html {
     font-size: 50% !important;
@@ -83,6 +126,12 @@ body {
   .site-logo {
     height: 3.5rem !important;
     width: 3.5rem !important;
+  }
+  .header {
+    grid-template-columns: 0.5fr 1fr !important;
+  }
+  .top-nav {
+    width: 74rem !important;
   }
   .form__button-wrapper {
     width: 17.5625rem !important;
@@ -133,11 +182,26 @@ body {
     height: 3.3rem !important;
     width: 13rem !important;
   }
-  .happy-clients {
-    height: 73rem !important;
-  }
   .quotes {
-    grid-template-rows: 25rem 25rem !important;
+    width: 80% !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+  }
+  .happy-clients {
+    justify-content: stretch !important;
+  }
+  .quote-wrapper {
+    margin-bottom: 2.875rem !important;
+    margin-right: 1.5rem !important;
+  }
+  .quote {
+    width: auto !important;
+    margin-left: 2.5rem !important;
+  }
+  .happy-clients, .services, .choose-price, .how-it-works {
+    height: auto !important;
+    min-height: 100%;
+    padding-bottom: 7rem;
   }
   .bubble {
     height: 24rem !important;
@@ -152,12 +216,16 @@ body {
   }
 }
 
+
+
 @media all and (max-width: 675px){
   .top-nav {
-    margin-left: 1% !important;
+    width: 69rem !important;
     font-size: 12px;
   }
 }
+
+
 
 @media all and (max-width: 619px){
   header {
@@ -180,9 +248,6 @@ body {
   .laptop {
     width: 50rem !important;
     height: 30rem !important;
-  }
-  .services {
-    height: 133rem !important;
   }
   .switch-buttons {
     margin-top: 34% !important;
@@ -209,9 +274,6 @@ body {
     justify-self: center;
     max-width: 40rem !important;
   }
-  .choose-price {
-    height: 123rem !important;
-  }
   .price-plans {
     grid-auto-flow: row !important;
     grid-row-gap: 1em !important;
@@ -219,9 +281,6 @@ body {
   .basic-plan, .premium-plan, .gold-plan {
     width: 30rem !important;
     border: none !important;
-  }
-  .how-it-works {
-    height: 83rem !important;
   }
   .steps {
     width: auto !important;
@@ -241,8 +300,92 @@ body {
   .get-start-button {
     margin-top: 10rem !important;
   }
+}
+
+
+@media all and (max-width: 500px){
+  .boost {
+    font-size: 15px !important;
+    height: 45rem !important;
+  }
+  .local-business {
+    font-size: 2em !important;
+  }
+  .local-business-title {
+    padding-left: 6rem;
+    font-size: 17px !important;
+    margin-top: 0.5rem !important;
+  }
+  .boost__form-wrapper {
+    margin-top: 4rem !important;
+  }
+
+  .services, .about, .how-it-works, .happy-clients, .newsletter, .choose-price {
+    font-size: 18px;
+  }
+  .services-item__info-wrapper {
+    width: 50rem !important;
+  }
+  .about {
+    height: 72rem !important;
+  }
+  .about__button {
+    margin-top: 3rem !important;
+    width: 16rem !important;
+    height: 5rem !important;
+  }
+  .basic-plan, .gold-plan, .premium-plan {
+    width: 40rem !important;
+    height: 45rem !important;
+  }
+  .plan__accounts, .plan__support, .plan__cloud {
+    height: 3.4rem !important;
+  }
+  .plan__button {
+    margin-top: 3rem !important;
+    height: 5rem !important;
+    width: 16rem !important;
+  }
+  .step__image.image-1, .step__image.image-4 {
+       height: 5rem !important;
+       width: 5.6rem !important;
+     }
+  .step__image.image-2 {
+    height: 6.7rem !important;
+    width: 5rem !important;
+  }
+  .step__image.image-3 {
+    height: 5rem !important;
+    width: 6.4rem !important;
+  }
+  .get-start-button {
+    margin-top: 16rem !important;
+    width: 19rem !important;
+    height: 5rem !important;
+  }
   .quotes {
-    width: auto !important;
-    grid-template-columns: 1fr !important;
+    grid-row-gap: 2rem !important;
+  }
+  .bottom-nav {
+    display: none !important;
+  }
+  .newsletter__subscribe {
+    width: 65rem !important;
+  }
+  .subscribe__button-wrapper {
+    width: 19rem !important;
+  }
+ .subscribe__name, .subscribe__email, .subscribe__button-wrapper {
+   height: 4rem !important;
+ }
+  .bubble {
+    height: 34rem !important;
+    width: 34rem !important;
+  }
+  .site-logo-2 {
+    display: none;
+  }
+  .footer {
+    display: none !important;
   }
 }

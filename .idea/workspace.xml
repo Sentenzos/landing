@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bc64977-8179-4c5c-88dc-ee39044b5021" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sundries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sundries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Boost/Boost.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Boost/Boost.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Boost/Boost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Boost/Boost.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Happy/Happy.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Happy/Happy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Happy/Happy.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Happy/Happy.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Happy/Happy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Happy/Happy.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Happy/Happy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Happy/Happy.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/How/How.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How/How.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/How/How.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How/How.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Price/Price.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Price/Price.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Price/Price.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Price/Price.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Price/Price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Price/Price.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/Services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/Services.scss" afterDir="false" />
-    </list>
+    <list default="true" id="4bc64977-8179-4c5c-88dc-ee39044b5021" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,35 +19,39 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="241" column="33" lean-forward="true" selection-start-line="241" selection-start-column="33" selection-end-line="241" selection-end-column="33" />
+            <state relative-caret-position="557">
+              <caret line="341" column="30" lean-forward="true" selection-start-line="341" selection-start-column="30" selection-end-line="341" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/How/How.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="289">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Boost/Boost.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="69" selection-start-line="69" selection-end-line="69" selection-end-column="51" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Services/Services.scss">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="391">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -81,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/About/About.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
+            <state relative-caret-position="714">
               <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="19" />
             </state>
           </provider>
@@ -99,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Price/Price.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -111,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header/Header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -129,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Newsletter/Newsletter.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="714">
               <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="35" />
             </state>
           </provider>
@@ -139,13 +117,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>services-item__text</find>
-      <find>about__description</find>
-      <find>plan__button</find>
-      <find>step__description</find>
       <find>subscribe__name</find>
       <find>bottom-phone</find>
-      <find>quote</find>
       <find>quote-owner</find>
       <find>happy-clients__title-1</find>
       <find>form__full-name</find>
@@ -169,6 +142,11 @@
       <find>basic-plan</find>
       <find>get-start-button</find>
       <find>services-item__img</find>
+      <find>body</find>
+      <find>step__image</find>
+      <find>quote-wrapper</find>
+      <find>quote</find>
+      <find>font-size</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,10 +191,10 @@
         <option value="$PROJECT_DIR$/src/components/Happy/Happy.scss" />
         <option value="$PROJECT_DIR$/src/components/Services/Services.scss" />
         <option value="$PROJECT_DIR$/src/components/Newsletter/Newsletter.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/Header.scss" />
         <option value="$PROJECT_DIR$/src/components/Boost/Boost.scss" />
         <option value="$PROJECT_DIR$/src/components/Price/Price.jsx" />
         <option value="$PROJECT_DIR$/src/components/Price/Price.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.scss" />
         <option value="$PROJECT_DIR$/src/App.scss" />
       </list>
     </option>
@@ -227,7 +205,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="226" />
     <option name="y" value="-4" />
     <option name="width" value="972" />
@@ -241,116 +219,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="land1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="land1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="land1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="land1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="land1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="land1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="About" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Boost" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Happy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="land1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="land1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="How" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Newsletter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Price" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="App.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/training/NODE/conspect.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -423,17 +327,18 @@
       <workItem from="1581941047043" duration="17806000" />
       <workItem from="1582027146006" duration="17725000" />
       <workItem from="1582113572108" duration="18131000" />
+      <workItem from="1582207155253" duration="8937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120118000" />
+    <option name="totallyTimeSpent" value="129055000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9198266" visible="true" weight="0.15331928" />
-      <window_info id="npm" order="1" sideWeight="0.08017335" side_tool="true" visible="true" weight="0.15331928" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9177546" visible="true" weight="0.15331928" />
+      <window_info id="npm" order="1" sideWeight="0.08224543" side_tool="true" visible="true" weight="0.15331928" />
       <window_info id="Favorites" order="2" sideWeight="0.08017335" side_tool="true" weight="0.15331928" />
       <window_info id="Structure" order="3" sideWeight="0.08017335" weight="0.15331928" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -446,7 +351,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" weight="0.13867822" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49894625" weight="0.17009751" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49894625" visible="true" weight="0.17009751" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -454,6 +359,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/index.d.js" />
+      </list>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.css" />
@@ -623,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -637,16 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -694,48 +589,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Happy/Happy.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/How/How.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About/About.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Newsletter/Newsletter.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Boost/Boost.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="1173">
           <caret line="69" selection-start-line="69" selection-end-line="69" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Price/Price.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Services/Services.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1462">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/About/About.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -746,24 +624,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/How/How.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Price/Price.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Services/Services.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Happy/Happy.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="136">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Newsletter/Newsletter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="241" column="33" lean-forward="true" selection-start-line="241" selection-start-column="33" selection-end-line="241" selection-end-column="33" />
+        <state relative-caret-position="557">
+          <caret line="341" column="30" lean-forward="true" selection-start-line="341" selection-start-column="30" selection-end-line="341" selection-end-column="30" />
         </state>
       </provider>
     </entry>
