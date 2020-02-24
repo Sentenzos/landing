@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.844f8815.chunk.css",
-    "main.js": "/landing/static/js/main.380cb6c6.chunk.js",
-    "main.js.map": "/landing/static/js/main.380cb6c6.chunk.js.map",
+    "main.css": "/landing/static/css/main.47c78e50.chunk.css",
+    "main.js": "/landing/static/js/main.daceae45.chunk.js",
+    "main.js.map": "/landing/static/js/main.daceae45.chunk.js.map",
     "runtime-main.js": "/landing/static/js/runtime-main.8e076927.js",
     "runtime-main.js.map": "/landing/static/js/runtime-main.8e076927.js.map",
-    "static/js/2.e8eebd99.chunk.js": "/landing/static/js/2.e8eebd99.chunk.js",
-    "static/js/2.e8eebd99.chunk.js.map": "/landing/static/js/2.e8eebd99.chunk.js.map",
+    "static/js/2.0a6b8fcc.chunk.js": "/landing/static/js/2.0a6b8fcc.chunk.js",
+    "static/js/2.0a6b8fcc.chunk.js.map": "/landing/static/js/2.0a6b8fcc.chunk.js.map",
     "index.html": "/landing/index.html",
-    "precache-manifest.f6799ae6227ca42a2c39d00dedd623fc.js": "/landing/precache-manifest.f6799ae6227ca42a2c39d00dedd623fc.js",
+    "precache-manifest.c5f88caa1314be733bfddbead1cebdd0.js": "/landing/precache-manifest.c5f88caa1314be733bfddbead1cebdd0.js",
     "service-worker.js": "/landing/service-worker.js",
-    "static/css/main.844f8815.chunk.css.map": "/landing/static/css/main.844f8815.chunk.css.map",
-    "static/js/2.e8eebd99.chunk.js.LICENSE.txt": "/landing/static/js/2.e8eebd99.chunk.js.LICENSE.txt",
+    "static/css/main.47c78e50.chunk.css.map": "/landing/static/css/main.47c78e50.chunk.css.map",
+    "static/js/2.0a6b8fcc.chunk.js.LICENSE.txt": "/landing/static/js/2.0a6b8fcc.chunk.js.LICENSE.txt",
     "static/media/Footer.scss": "/landing/static/media/lato regular.3b9b9903.ttf",
     "static/media/About.scss": "/landing/static/media/aboutImage.7da0dda7.jpg",
     "static/media/Newsletter.scss": "/landing/static/media/map.d8d0e2eb.png",
-    "static/media/Boost.scss": "/landing/static/media/laptop.67385454.png",
+    "static/media/Boost.scss": "/landing/static/media/laptop1.67385454.png",
+    "static/media/laptop2.png": "/landing/static/media/laptop2.22f5a12d.png",
+    "static/media/laptop3.png": "/landing/static/media/laptop3.49486289.png",
     "static/media/photo-1.png": "/landing/static/media/photo-1.46e94e74.png",
     "static/media/photo-2.png": "/landing/static/media/photo-2.fe48fa6f.png",
     "static/media/photo-3.png": "/landing/static/media/photo-3.5e0ea1ef.png",
@@ -23,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8e076927.js",
-    "static/js/2.e8eebd99.chunk.js",
-    "static/css/main.844f8815.chunk.css",
-    "static/js/main.380cb6c6.chunk.js"
+    "static/js/2.0a6b8fcc.chunk.js",
+    "static/css/main.47c78e50.chunk.css",
+    "static/js/main.daceae45.chunk.js"
   ]
 }
