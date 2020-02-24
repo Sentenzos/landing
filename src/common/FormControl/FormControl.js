@@ -4,7 +4,7 @@ import "./FormControl.scss";
 
 
 const FormControl = (props) => {
-  const {children, wrapperClassName, textleft, textright, meta: {touched, error}, awesomeicon} = props;
+  const {children, wrapperClassName, meta: {touched, error}, awesomeicon} = props;
   return (
     <div className={wrapperClassName + cn(touched && error ? ` form__input-body--error` : "")}>
       {
@@ -15,14 +15,14 @@ const FormControl = (props) => {
           :
           null
       }
-        {textleft}{children}{textright}
+        {children}
         {touched && error ? <span className="form__input-error">{error}</span> : null}
     </div>
   )
 };
 
 export const Input = (props) => {
-  //wrapperClassName - это мой кастомный пропс содержащий класс дял настройки css элемента содержащего input или textarea
+  //wrapperClassName - это мой кастомный пропс содержащий класс для настройки css элемента содержащего input или textarea
   const {input, wrapperClassName, meta, ...restProps} = props;
 
   //Тут обязательно отдельно сделать деструктурирующее присваивание input'a и передать с использованием спрэд оператора

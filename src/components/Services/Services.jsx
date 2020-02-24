@@ -1,21 +1,27 @@
-import React, {useState} from "react";
+import React from "react";
 import "./Services.scss";
 import cn from "classnames";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 
-const Services = () => {
-  const [state, setState] = useState(1);
-  const buttons = [1, 2, 3];
+const Services = (props) => {
+
+  //переключает кнопки и активирует состояние exiting в Transition
+  const handleClick = (button) => {
+    if (props.button === button) return;
+    props.setButton(button);
+    props.toggleAniState(false);
+  };
 
   return (
-    <div className="services">
+    <section className="services">
       <div className="switch-buttons">
         {
-          buttons.map(b => {
-            return <div key={b} className={cn("switch-button", b === state && "switch-button--selected")}
-                        onClick={() => setState(b)}/>
+          props.buttons.map(b => {
+            return <div key={b} className={cn("switch-button", b === props.button && "switch-button--selected")}
+                        onClick={() => handleClick(b)}
+            />
           })
         }
       </div>
@@ -84,7 +90,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 };
 

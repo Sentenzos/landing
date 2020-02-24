@@ -6,7 +6,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 const Price = () => {
   return (
     <ScrollableAnchor id="price">
-      <div className="choose-price">
+      <section className="choose-price">
         <h2 className="choose-price__title">CHOOSE YOUR PRICE</h2>
         <h4 className="choose-price__title-2">Lorem Ipsum is simply dummy text of the printing typesetting.</h4>
         <div className="price-plans">
@@ -32,7 +32,7 @@ const Price = () => {
             />
           </div>
         </div>
-      </div>
+      </section>
     </ScrollableAnchor>
   )
 };

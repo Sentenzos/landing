@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useMemo, useRef, useState} from 'react';
 import './App.scss';
-import {BrowserRouter, Switch, Route} from "react-router-dom";
+import '../src/assets/responsive.scss';
 import {Provider} from "react-redux";
 import Header from "./components/Header/Header";
 import Boost from "./components/Boost/Boost";
@@ -16,26 +16,48 @@ import How from "./components/How/How";
 import Happy from "./components/Happy/Happy";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Footer from "./components/Footer/Footer";
-
+import img1 from "./assets/img/laptop1.png";
+import img2 from "./assets/img/laptop2.png";
+import img3 from "./assets/img/laptop3.png";
 
 library.add(fab, fas, far);
 
 
 const App = () => {
+
+  const [button, setButton] = useState(0);
+  const buttons = useMemo(() => [0, 1, 2], []);
+  const images = useMemo(() => [img1, img2, img3], []);
+  const [animationState, toggleAnimationState] = useState(true);
+  const laptopElem = useRef(null);
+
+  const changeImage = () => {
+    //без setTimeout элемент с картинкой не успевает размонтироваться в момент exited
+    setTimeout(() => {
+      toggleAnimationState(true);
+      laptopElem.current.style.backgroundImage = `url(${images[button]})`
+    }, 0);
+  };
+
   return (
-    <BrowserRouter>
-      <Provider store={store}>
-        <Header />
-        <Boost/>
-        <Services/>
-        <About/>
-        <Price/>
-        <How/>
-        <Happy/>
-        <Newsletter/>
-        <Footer/>
-      </Provider>
-    </BrowserRouter>
+    <Provider store={store}>
+      <Header/>
+      <Boost forRef={laptopElem}
+             aniState={animationState}
+             changeImage={changeImage}
+      />
+      <Services buttons={buttons}
+                button={button}
+                setButton={setButton}
+                toggleAniState={toggleAnimationState}
+      />
+      <About/>
+      <Price/>
+      <How/>
+      <Happy/>
+      <Newsletter/>
+      <Footer/>
+    </Provider>
   )
 };
 

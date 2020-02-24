@@ -7,7 +7,7 @@ const How = () => {
 
   return (
     <ScrollableAnchor id="how-it-works">
-    <div className="how-it-works">
+    <section className="how-it-works">
       <h1 className="how-it-works__title">HOW IT WORKS</h1>
       <h4 className="how-it-works__title-2">Lorem Ipsum is simply dummy Business industry</h4>
       <div className="steps">
@@ -52,7 +52,7 @@ const How = () => {
         </div>
       </div>
       <div className="get-start-button">GET START NOW</div>
-    </div>
+    </section>
     </ScrollableAnchor>
   )
 };

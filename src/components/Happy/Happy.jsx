@@ -10,7 +10,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 const Happy = () => {
   return (
     <ScrollableAnchor id="happy-clients">
-      <div className="happy-clients">
+      <section className="happy-clients">
         <h1 className="happy-clients__title-1">HAPPY CLIENTS</h1>
         <h4 className="happy-clients__title-2">We are explain who are using our business solutions</h4>
         <div className="quotes">
@@ -19,7 +19,7 @@ const Happy = () => {
           <Quote name="CLIPS ARTER" position="LIPSUM DIRECTOR" photo={photo3}/>
           <Quote name="ZAM CHRISTOPHER" position="MANAGER" photo={photo4}/>
         </div>
-      </div>
+      </section>
     </ScrollableAnchor>
   )
 };
