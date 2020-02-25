@@ -7,7 +7,6 @@ import {Transition} from "react-transition-group";
 const Boost = (props) => {
 
   const [windowWidth, setWindowWidth] = useState(null);
-  const [elemWidth, setElemWidth] = useState(null);
 
   const defaultStyle = {
     transition: `margin-left 300ms, opacity 300ms`
@@ -33,16 +32,15 @@ const Boost = (props) => {
   };
 
   useEffect(() => {
-    const calculateSizes = () => {
+    const calculateSize = () => {
       setWindowWidth(document.documentElement.clientWidth);
-      setElemWidth(parseInt(getComputedStyle(props.forRef.current).width));
     };
 
-    calculateSizes();
-    window.addEventListener('resize', calculateSizes);
+    calculateSize();
+    window.addEventListener('resize', calculateSize);
 
     return () => {
-      window.removeEventListener('resize', calculateSizes);
+      window.removeEventListener('resize', calculateSize);
     }
   }, []);
 
