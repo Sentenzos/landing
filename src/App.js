@@ -1,6 +1,19 @@
 import React, {useMemo, useRef, useState} from 'react';
+
 import './App.scss';
+import '../src/components/Footer/Footer.scss';
+import '../src/components/How/How.scss';
+import '../src/components/About/About.scss';
+import '../src/components/Services/Services.scss';
+import '../src/components/Newsletter/Newsletter.scss';
+import '../src/components/Happy/Happy.scss';
+import '../src/components/Boost/Boost.scss';
+import '../src/components/Header/Header.scss';
+import '../src/components/Price/Price.scss';
 import '../src/assets/responsive.scss';
+
+
+
 import {Provider} from "react-redux";
 import Header from "./components/Header/Header";
 import Boost from "./components/Boost/Boost";

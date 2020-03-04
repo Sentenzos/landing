@@ -1,5 +1,4 @@
 import React, {useEffect, useRef} from "react";
-import "./Happy.scss";
 import photo1 from "../../assets/img/photo-1.png"
 import photo2 from "../../assets/img/photo-2.png"
 import photo3 from "../../assets/img/photo-3.png"

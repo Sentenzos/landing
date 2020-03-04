@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react";
-import "./Boost.scss";
 import BoostForm from "./BoostForm";
 import {Transition} from "react-transition-group";
 

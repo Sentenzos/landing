@@ -1,5 +1,4 @@
 import React from "react";
-import "./Services.scss";
 import cn from "classnames";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import ScrollableAnchor from 'react-scrollable-anchor'

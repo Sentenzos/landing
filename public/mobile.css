@@ -1,0 +1,109 @@
+@media all and (max-width: 500px) {
+  .boost {
+    font-size: 15px !important;
+    height: 45rem !important;
+  }
+
+  .local-business {
+    font-size: 2em !important;
+  }
+
+  .local-business-title {
+    padding-left: 6rem !important;
+    font-size: 17px !important;
+    margin-top: 0.5rem !important;
+  }
+
+  .boost__form-wrapper {
+    margin-top: 4rem !important;
+  }
+
+  .services, .about, .how-it-works, .happy-clients, .newsletter, .choose-price {
+    font-size: 18px !important;
+  }
+
+  .services-item__info-wrapper {
+    width: 50rem !important;
+  }
+
+  .about {
+    height: 72rem !important;
+  }
+
+  .about__button {
+    margin-top: 3rem !important;
+    width: 16rem !important;
+    height: 5rem !important;
+  }
+
+  .basic-plan, .gold-plan, .premium-plan {
+    width: 40rem !important;
+    height: 45rem !important;
+  }
+
+  .plan__accounts, .plan__support, .plan__cloud {
+    height: 3.4rem !important;
+  }
+
+  .plan__button {
+    margin-top: 3rem !important;
+    height: 5rem !important;
+    width: 16rem !important;
+  }
+
+  .step__image.image-1, .step__image.image-4 {
+    height: 5rem !important;
+    width: 5.6rem !important;
+  }
+
+  .step__image.image-2 {
+    height: 6.7rem !important;
+    width: 5rem !important;
+  }
+
+  .step__image.image-3 {
+    height: 5rem !important;
+    width: 6.4rem !important;
+  }
+
+  .get-start-button {
+    margin-top: 16rem !important;
+    width: 19rem !important;
+    height: 5rem !important;
+  }
+
+  .quotes {
+    grid-row-gap: 2rem;
+  }
+
+  .bottom-nav {
+    display: none !important;
+  }
+
+  .newsletter__subscribe {
+    width: 65rem !important;
+  }
+
+  .subscribe__button-wrapper {
+    width: 19rem !important;
+  }
+
+  .subscribe__name, .subscribe__email, .subscribe__button-wrapper {
+    height: 4rem !important;
+  }
+
+  .bubble {
+    height: 34rem !important;
+    width: 34rem !important;
+  }
+
+  .site-logo-2 {
+    display: none !important;
+  }
+
+  .footer {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

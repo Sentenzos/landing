@@ -1,5 +1,4 @@
 import React from "react";
-import "./Newsletter.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import NewsletterForm from "./NewsletterForm";
 import ScrollableAnchor from 'react-scrollable-anchor';

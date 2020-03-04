@@ -1,21 +1,21 @@
 @media all and (max-width: 1350px) {
   .header {
-    grid-template-columns: 0.3fr 1fr !important;
+    grid-template-columns: 0.3fr 1fr;
   }
 }
 @media all and (max-width: 1191px) {
   html {
-    font-size: 90% !important;
+    font-size: 90%;
   }
 }
 @media all and (max-width: 1191px) {
   html {
-    font-size: 90% !important;
+    font-size: 90%;
   }
 }
 @media all and (max-width: 1072px) {
   html {
-    font-size: 80% !important;
+    font-size: 80%;
   }
 
   body {
@@ -23,16 +23,16 @@
   }
 
   .header {
-    grid-template-columns: 0.15fr 1fr !important;
+    grid-template-columns: 0.15fr 1fr;
   }
 
   .top-nav {
-    width: 55rem !important;
+    width: 55rem;
   }
 }
 @media all and (max-width: 955px) {
   html {
-    font-size: 70% !important;
+    font-size: 70%;
   }
 
   body {
@@ -40,229 +40,228 @@
   }
 
   .services {
-    height: 60rem !important;
+    height: 60rem;
   }
 
   .plan__accounts, .plan__support, .plan__cloud {
-    width: 150% !important;
+    width: 150%;
   }
 
   .top-nav {
-    width: 58rem !important;
+    width: 58rem;
   }
 }
 @media all and (max-width: 837px) {
   html {
-    font-size: 60% !important;
+    font-size: 60%;
   }
 
   .header {
-    grid-template-columns: 0.1fr 1fr !important;
+    grid-template-columns: 0.1fr 1fr;
   }
 
   .top-nav {
-    width: 64rem !important;
+    width: 64rem;
   }
 
   .switch-buttons {
-    margin-top: 9% !important;
+    margin-top: 9%;
   }
 
   .services {
-    height: 68rem !important;
+    height: 68rem;
   }
 
   .about {
-    height: 42rem !important;
+    height: 42rem;
   }
 
   .plan__accounts, .plan__support, .plan__cloud {
-    width: 140% !important;
+    width: 140%;
   }
 
   .bubble {
-    height: 20rem !important;
-    width: 19.5rem !important;
+    height: 20rem;
+    width: 19.5rem;
   }
 
   .site-logo-2 {
-    height: 3.5rem !important;
-    width: 3.5rem !important;
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
   .happy-clients {
-    height: 63rem !important;
+    height: 63rem;
   }
 
   .quotes {
-    grid-template-rows: 20rem 20rem !important;
+    grid-template-rows: 20rem 20rem;
   }
 }
 @media all and (max-width: 727px) {
   html {
-    font-size: 50% !important;
+    font-size: 50%;
   }
 
   .site-logo {
-    height: 3.5rem !important;
-    width: 3.5rem !important;
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
   .header {
-    grid-template-columns: 0.5fr 1fr !important;
+    grid-template-columns: 0.5fr 1fr;
   }
 
   .top-nav {
-    width: 74rem !important;
+    width: 74rem;
   }
 
   .form__button-wrapper {
-    width: 17.5625rem !important;
-    height: 3.1rem !important;
+    width: 17.5625rem;
+    height: 3.1rem;
   }
 
   .boost__form {
-    width: 73rem !important;
+    width: 73rem;
   }
 
   .form__full-name, .form__email, .form__phone-number {
-    height: 3.1rem !important;
+    height: 3.1rem;
   }
 
   .services {
-    height: 80rem !important;
+    height: 80rem;
   }
 
   .switch-buttons {
-    margin-top: 10% !important;
+    margin-top: 10%;
   }
 
   .services-item__img {
-    width: 6rem !important;
+    width: 6rem;
   }
 
   .services-item__info-wrapper {
-    width: 29rem !important;
+    width: 29rem;
   }
 
   .about {
-    height: 50rem !important;
+    height: 50rem;
   }
 
   .about__button {
-    width: 11rem !important;
-    height: 3.5rem !important;
+    width: 11rem;
+    height: 3.5rem;
   }
 
   .plan__accounts, .plan__support, .plan__cloud {
-    width: 115% !important;
+    width: 115%;
   }
 
   .plan__button {
-    height: 3rem !important;
-    width: 11rem !important;
+    height: 3rem;
+    width: 11rem;
   }
 
   .premium-plan {
-    height: 33rem !important;
+    height: 33rem;
   }
 
   .basic-plan, .gold-plan {
-    height: 30rem !important;
+    height: 30rem;
   }
 
   .how-it-works {
-    height: 60rem !important;
+    height: 60rem;
   }
 
   .get-start-button {
-    height: 3.3rem !important;
-    width: 13rem !important;
+    height: 3.3rem;
+    width: 13rem;
   }
 
   .quotes {
-    width: 80% !important;
-    grid-template-columns: 1fr !important;
-    grid-template-rows: auto !important;
+    width: 80%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 
   .happy-clients {
-    justify-content: stretch !important;
+    justify-content: stretch;
   }
 
   .quote-wrapper {
-    margin-bottom: 2.875rem !important;
-    margin-right: 1.5rem !important;
+    margin-bottom: 2.875rem;
+    margin-right: 1.5rem;
   }
 
   .quote {
-    width: auto !important;
-    margin-left: 2.5rem !important;
+    width: auto;
+    margin-left: 2.5rem;
   }
 
   .happy-clients, .services, .choose-price, .how-it-works {
-    height: auto !important;
+    height: auto;
     min-height: 100%;
     padding-bottom: 7rem;
   }
 
   .bubble {
-    height: 24rem !important;
-    width: 23rem !important;
+    height: 24rem;
+    width: 23rem;
   }
 
   .site-logo-2 {
-    height: 4rem !important;
-    width: 4rem !important;
+    height: 4rem;
+    width: 4rem;
   }
 
   .subscribe__name, .subscribe__email, .subscribe__button-wrapper {
-    height: 3.1rem !important;
+    height: 3.1rem;
   }
 }
 @media all and (max-width: 675px) {
   .top-nav {
-    width: 69rem !important;
+    width: 69rem;
     font-size: 12px;
   }
-}
-@media all and (max-width: 619px) {
+
   header {
-    display: none !important;
+    display: none;
   }
 
   .boost__form {
-    grid-template-rows: 1fr 1fr !important;
-    justify-content: center !important;
-    grid-gap: 1em 1em !important;
-    width: auto !important;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 1em 1em;
+    width: auto;
   }
 
   .form__full-name, .form__email, .form__phone-number {
-    height: 3.5em !important;
-    width: 21em !important;
+    height: 3.5em;
+    width: 21em;
   }
 
   .form__button-wrapper {
-    height: 3.285715em !important;
-    width: 19.5em !important;
+    height: 3.285715em;
+    width: 19.5em;
   }
 
   .laptop {
-    width: 50rem !important;
-    height: 30rem !important;
+    width: 50rem;
+    height: 30rem;
   }
 
   .switch-buttons {
-    margin-top: 34% !important;
-    width: 6em !important;
+    margin-top: 34%;
+    width: 6em;
   }
 
   .services__services-items {
-    margin-top: 3rem !important;
-    grid-template-columns: 1fr !important;
-    justify-content: left !important;
-    justify-items: left !important;
+    margin-top: 3rem;
+    grid-template-columns: 1fr;
+    justify-content: left;
+    justify-items: left;
   }
 
   .services-item {
@@ -270,160 +269,53 @@
   }
 
   .services-item__info-wrapper {
-    width: 43rem !important;
+    width: 43rem;
   }
 
   .services-item__img {
-    width: 8rem !important;
+    width: 8rem;
   }
 
   .about {
-    grid-template-columns: 0.3fr 1fr !important;
+    grid-template-columns: 0.3fr 1fr;
   }
 
   .about__info {
     justify-self: center;
-    max-width: 40rem !important;
+    max-width: 40rem;
   }
 
   .price-plans {
-    grid-auto-flow: row !important;
-    grid-row-gap: 1em !important;
+    grid-auto-flow: row;
+    grid-row-gap: 1em;
   }
 
   .basic-plan, .premium-plan, .gold-plan {
-    width: 30rem !important;
-    border: none !important;
+    width: 30rem;
+    border: none;
   }
 
   .steps {
-    width: auto !important;
-    grid-template-rows: 1fr 1fr !important;
-    justify-content: center !important;
+    width: auto;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
     grid-gap: 7% 25%;
   }
 
   .step__image-wrapper {
-    height: 8rem !important;
+    height: 8rem;
   }
 
   .step {
-    width: 12em !important;
+    width: 12em;
   }
 
   .step__arrow {
-    display: none !important;
-  }
-
-  .get-start-button {
-    margin-top: 10rem !important;
-  }
-}
-@media all and (max-width: 500px) {
-  .boost {
-    font-size: 15px !important;
-    height: 45rem !important;
-  }
-
-  .local-business {
-    font-size: 2em !important;
-  }
-
-  .local-business-title {
-    padding-left: 6rem;
-    font-size: 17px !important;
-    margin-top: 0.5rem !important;
-  }
-
-  .boost__form-wrapper {
-    margin-top: 4rem !important;
-  }
-
-  .services, .about, .how-it-works, .happy-clients, .newsletter, .choose-price {
-    font-size: 18px;
-  }
-
-  .services-item__info-wrapper {
-    width: 50rem !important;
-  }
-
-  .about {
-    height: 72rem !important;
-  }
-
-  .about__button {
-    margin-top: 3rem !important;
-    width: 16rem !important;
-    height: 5rem !important;
-  }
-
-  .basic-plan, .gold-plan, .premium-plan {
-    width: 40rem !important;
-    height: 45rem !important;
-  }
-
-  .plan__accounts, .plan__support, .plan__cloud {
-    height: 3.4rem !important;
-  }
-
-  .plan__button {
-    margin-top: 3rem !important;
-    height: 5rem !important;
-    width: 16rem !important;
-  }
-
-  .step__image.image-1, .step__image.image-4 {
-    height: 5rem !important;
-    width: 5.6rem !important;
-  }
-
-  .step__image.image-2 {
-    height: 6.7rem !important;
-    width: 5rem !important;
-  }
-
-  .step__image.image-3 {
-    height: 5rem !important;
-    width: 6.4rem !important;
-  }
-
-  .get-start-button {
-    margin-top: 16rem !important;
-    width: 19rem !important;
-    height: 5rem !important;
-  }
-
-  .quotes {
-    grid-row-gap: 2rem !important;
-  }
-
-  .bottom-nav {
-    display: none !important;
-  }
-
-  .newsletter__subscribe {
-    width: 65rem !important;
-  }
-
-  .subscribe__button-wrapper {
-    width: 19rem !important;
-  }
-
-  .subscribe__name, .subscribe__email, .subscribe__button-wrapper {
-    height: 4rem !important;
-  }
-
-  .bubble {
-    height: 34rem !important;
-    width: 34rem !important;
-  }
-
-  .site-logo-2 {
     display: none;
   }
 
-  .footer {
-    display: none !important;
+  .get-start-button {
+    margin-top: 10rem;
   }
 }
 

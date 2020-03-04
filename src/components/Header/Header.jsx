@@ -1,5 +1,4 @@
 import React from "react";
-import "./Header.scss";
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 
