@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import BoostForm from "./BoostForm";
 import {Transition} from "react-transition-group";
+import "./Boost.scss"
 
 
 const Boost = (props) => {

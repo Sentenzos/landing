@@ -4,6 +4,7 @@ import photo2 from "../../assets/img/photo-2.png"
 import photo3 from "../../assets/img/photo-3.png"
 import photo4 from "../../assets/img/photo-4.png"
 import ScrollableAnchor from 'react-scrollable-anchor';
+import "./Happy.scss";
 
 
 const Happy = () => {

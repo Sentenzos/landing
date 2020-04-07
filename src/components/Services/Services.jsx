@@ -2,6 +2,7 @@ import React from "react";
 import cn from "classnames";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import ScrollableAnchor from 'react-scrollable-anchor'
+import "./Services.scss"
 
 
 const Services = (props) => {

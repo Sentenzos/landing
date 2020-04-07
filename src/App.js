@@ -1,19 +1,4 @@
 import React, {useMemo, useRef, useState} from 'react';
-
-import './App.scss';
-import '../src/components/Footer/Footer.scss';
-import '../src/components/How/How.scss';
-import '../src/components/About/About.scss';
-import '../src/components/Services/Services.scss';
-import '../src/components/Newsletter/Newsletter.scss';
-import '../src/components/Happy/Happy.scss';
-import '../src/components/Boost/Boost.scss';
-import '../src/components/Header/Header.scss';
-import '../src/components/Price/Price.scss';
-import '../src/assets/responsive.scss';
-
-
-
 import {Provider} from "react-redux";
 import Header from "./components/Header/Header";
 import Boost from "./components/Boost/Boost";
@@ -32,6 +17,8 @@ import Footer from "./components/Footer/Footer";
 import img1 from "./assets/img/laptop1.png";
 import img2 from "./assets/img/laptop2.png";
 import img3 from "./assets/img/laptop3.png";
+import './App.scss';
+import '../src/assets/responsive.scss';
 
 library.add(fab, fas, far);
 

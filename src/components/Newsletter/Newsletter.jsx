@@ -2,6 +2,7 @@ import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import NewsletterForm from "./NewsletterForm";
 import ScrollableAnchor from 'react-scrollable-anchor';
+import "./Newsletter.scss"
 
 
 const Newsletter = () => {

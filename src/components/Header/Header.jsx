@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollableAnchor from 'react-scrollable-anchor';
+import "./Header.scss"
 
 
 const Header = () => {
